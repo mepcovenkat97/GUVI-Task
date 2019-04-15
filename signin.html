@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>GUVI Task</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> <!-- load bootstrap via CDN -->
+    <link href="style.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+    <script src="signin.js"></script> <!-- load our javascript file -->
+</head>
+<body>
+            <header id="header">
+				<div class="inner">
+            <ul class="nav justify-content-end bg-light display-6 ">
+                        <li class="nav-item">
+                                    <a class="nav-link nav" href="index.html">Home</a>
+                                </li>
+                                <li></li>
+                <li class="nav-item ">
+                  <a class="nav-link nav" href="login.html">Login</a>
+                </li>
+                <li></li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="signin.html">Sign-In</a>
+                  </li>
+                  <li></li>
+                </ul>
+				</div>
+      </header>
+   <br>
+		<div class="col-sm-4 col-sm-offset-4 bg-light container right border border-dark">
+
+            <h2>Signin Form</h2>
+            <br>
+		
+				<!-- OUR FORM -->
+				<form action="signin.php" method="POST">
+      
+                  <div id="name-group" class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Name">
+                        <!-- errors will go here -->
+                  </div>
+
+						<!-- EMAIL -->
+			<div id="mobile-group" class="form-group">
+				<label for="email">Email</label>
+				<input type="text" class="form-control" name="email" placeholder="Email ID">
+				<!-- errors will go here -->
+                  </div>
+                  
+
+                  <div id="name-group" class="form-group">
+                        <label for="name">Mobile No.</label>
+                        <input type="number" class="form-control" name="phone" placeholder="Mobile Number">
+                        <!-- errors will go here -->
+                  </div>
+
+
+                  <div id="dob-group" class="form-group">
+                        <label for="name">Date of Birth</label>
+                        <input type="date" class="form-control" name="dob" placeholder="Date of Birth">
+                        <!-- errors will go here -->
+                  </div>
+
+
+                  <div id="department-group" class="form-group">
+                        <label for="name">Department</label>
+                        <input type="text" class="form-control" name="department" placeholder="Department">
+                        <!-- errors will go here -->
+                  </div>
+
+
+                  <div id="college-group" class="form-group">
+                        <label for="name">College</label>
+                        <input type="text" class="form-control" name="college" placeholder="College Name">
+                        <!-- errors will go here -->
+                  </div>
+		
+						
+			<div id="superhero-group" class="form-group">
+			      <label for="superheroAlias">Password</label>
+			      <input type="password" class="form-control" name="password" placeholder="Password">
+			      <!-- errors will go here -->
+			</div>
+		
+						<button type="submit" class="btn btn-outline-primary">Submit <span class="fa fa-arrow-right"></span></button>
+                                    <br><br><a href="login.html">Already having an Account?</a>
+		</form>
+		
+		</div>
+</body>
+</html>

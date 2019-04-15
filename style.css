@@ -1,0 +1,18 @@
+
+body {
+  background-color: #a4bae9;
+  font-family: Helvetica, sans-serif;
+  align-content: center;
+}
+
+.active{
+  background-color: rgb(250, 176, 150);
+  caret-color: white;
+}
+h2{
+  text-align: center
+}
+img{
+  align-content: center;
+  
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "rv",
+        "mobile": "85246",
+        "department": "cse",
+        "dob": "1997-07-09",
+        "college": "msec",
+        "email": "vahini@root.com"
+    },
+    {
+        "name": "drv",
+        "mobile": "85246",
+        "department": "cse",
+        "dob": "1997-07-09",
+        "college": "msec",
+        "email": "drv@root.com"
+    },
+    {
+        "name": "rm",
+        "mobile": "85246",
+        "department": "cse",
+        "dob": "1997-07-09",
+        "college": "msec",
+        "email": "rvvahini@root.com"
+    },
+    {
+        "name": "venkat",
+        "mobile": "58642",
+        "department": "cse",
+        "dob": "2019-04-10",
+        "college": "mepxo",
+        "email": "venki@root.com"
+    },
+    {
+        "name": "A.D.Ranjith Singh",
+        "mobile": "8524561379",
+        "department": "Mech",
+        "dob": "1997-07-09",
+        "college": "MSEC",
+        "email": "adrs@root.com"
+    }
+]
